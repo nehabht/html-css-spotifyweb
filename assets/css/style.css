@@ -1,0 +1,23 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --black: #000000;
+    --bg-dark: #141922;
+    --primary: #717171;
+    --secondary: #7A7D81;
+    --selected: #ADFF2F;
+    --icons: #D2D2D2;
+    --white: #FFFFFF;
+
+}
+
+
+body{
+    background-color: coral;
+}
