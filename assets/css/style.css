@@ -21,6 +21,7 @@
 
 body{
     background-color: coral;
+    font-family: sans-serif;
 }
 
 
@@ -50,7 +51,61 @@ body{
     width: 15%;
     float: left;
     height: 400px;
+    padding-left: 21px;
+    padding-top: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+        
 }
+
+.sidebar ul{
+    list-style: none;
+    /* color: white; */
+    
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: var(--primary);
+    
+    
+    
+}
+
+nav img {
+    width: 25px;
+
+}
+
+.hero_show span{
+    color: var(--white);
+}
+
+.hero_show img{
+    filter: contrast(1);
+}
+
+nav img{
+    filter: contrast(0);
+}
+
+.logo img{
+    width: 120px;
+}
+
+.logo{
+    line-height: 65px;
+}
+
+.sidebar span{
+    font-size: 16px;
+}
+
+
+
+
+
 
 /* hero content */
 
@@ -66,7 +121,7 @@ body{
 
 #site_footer{
     background-color: var(--player);
-    height: 100px;
+    height: 70px;
 
 
 }
