@@ -11,6 +11,7 @@
     --bg-dark: #141922;
     --primary: #717171;
     --secondary: #7A7D81;
+    --player: #282828;
     --selected: #ADFF2F;
     --icons: #D2D2D2;
     --white: #FFFFFF;
@@ -20,4 +21,52 @@
 
 body{
     background-color: coral;
+}
+
+
+.container{
+    /* height: 900px; */
+    /* height: calc(100vh -100px); */
+    max-width: 1440;
+}
+
+.row{
+    width: 100%;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+/* MAIN */
+
+/* sidebar */
+
+.sidebar{
+    background-color: var(--black);
+    width: 15%;
+    float: left;
+    height: 400px;
+}
+
+/* hero content */
+
+.hero_content{
+    background-color: var(--bg-dark);
+    width: 85%;
+    float: left;
+    height: 400px;
+}
+
+
+/* FOOTER */
+
+#site_footer{
+    background-color: var(--player);
+    height: 100px;
+
+
 }
