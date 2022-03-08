@@ -20,15 +20,15 @@
 
 
 body{
-    background-color: coral;
+    /* background-color: coral; */
     font-family: sans-serif;
 }
 
 
 .container{
-    /* height: 900px; */
-    /* height: calc(100vh -100px); */
-    max-width: 1440;
+    height: calc(100vh - 70px);
+    /* max-width: 1440; */
+    background-color: coral;
 }
 
 .row{
@@ -39,35 +39,45 @@ body{
     content: "";
     display: table;
     clear: both;
-  }
+}
+
+main{
+    width: calc(100% - 245px);
+    height: 100%;
+    background-color: var(--bg-dark);
+    float: left;
+}
 
 
-/* MAIN */
+
 
 /* sidebar */
 
-.sidebar{
+aside{
+    height: 100%;
     background-color: var(--black);
-    width: 15%;
+    width: 245px;
     float: left;
-    height: 400px;
     padding-left: 21px;
     padding-top: 18px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transition: all 1s;
         
 }
 
-.sidebar ul{
+aside ul{
     list-style: none;
     /* color: white; */
     
 }
 
-.sidebar a{
+aside a{
     text-decoration: none;
     color: var(--primary);
+    line-height: 35px;
+
     
     
     
@@ -88,6 +98,7 @@ nav img {
 
 nav img{
     filter: contrast(0);
+    margin-bottom: -5px;
 }
 
 .logo img{
@@ -98,8 +109,9 @@ nav img{
     line-height: 65px;
 }
 
-.sidebar span{
-    font-size: 16px;
+aside span{
+    font-size: 13px;
+    font-weight: 600;
 }
 
 
