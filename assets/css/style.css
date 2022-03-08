@@ -141,6 +141,38 @@ li .w_text {
 
 
 
+/* sidebar bottom */
+
+.download>img{
+    width: 18px;
+    margin-left: -5px;
+}
+
+
+.fa-dash{
+    width: 90%;
+    border: 0.5px solid var(--primary);
+
+}
+
+
+.icon_profile{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: transparent;
+    background-image: url(../img/profile.svg);
+    margin-left: 10px;
+    contain: content;
+    background-color: gray;
+    margin-left: -1px;
+    margin-top: 7px;
+}
+
+.profile span{
+    color: var(--white);
+}
+
 
 
 /* hero content */
