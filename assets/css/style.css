@@ -49,6 +49,7 @@ main{
     height: 100%;
     background-color: var(--bg-dark);
     float: left;
+    overflow: auto;
 }
 
 .w_text{
@@ -192,6 +193,7 @@ li .w_text {
 /* MAIN */
 
 
+
 .upgrade{
     display: flex;
     justify-content: end;
@@ -242,11 +244,36 @@ li .w_text {
     line-height: 1px;
 }
 
-.fa-dash{
+.h_active .fa-dash {
     border: 1px solid var(--selected);
     width: 40%;
     margin-left: 35%;
 }
+
+/* albums */
+
+.recent h2{
+    color: var(--white);
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.recent_music{
+    display: flex;
+    column-gap: 32px;
+    flex-wrap: wrap;
+    margin-left: 20px;
+
+}
+
+.album{
+    text-align: center;
+    
+    
+
+}
+
 
 
 
