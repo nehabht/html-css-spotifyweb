@@ -233,6 +233,22 @@ li .w_text {
     
 
 }
+.h_active{
+    display: flex;
+    flex-direction: column;
+}
+
+.h_active span{
+    line-height: 1px;
+}
+
+.fa-dash{
+    border: 1px solid var(--selected);
+    width: 40%;
+    margin-left: 35%;
+}
+
+
 
 
 
