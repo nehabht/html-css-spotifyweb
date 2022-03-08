@@ -391,6 +391,7 @@ li .w_text {
     align-self: center;
     color: var(--icons2);
     margin-left:30px;
+    font-size: 12px;
 
 
     
@@ -399,3 +400,44 @@ li .w_text {
 .fa-heart{
     margin-right: 15px;
 }
+
+/* center */
+
+
+
+/* right */
+
+.right{
+    display: flex;
+    align-self: center;
+    column-gap: 15px;
+    color: var(--white);
+    font-size: 13px;
+}
+
+.volume{
+    width: 115px;
+    position: relative;
+    
+}
+
+.volume .fa-dash{
+    border: 2px solid #a3a3a385;
+    margin-bottom: 5px;
+    border-radius: 2px;
+
+}
+
+.volume_setting{
+    position: absolute;
+    left: 0px;
+    width: 23px;
+    color: var(--icons);
+}
+
+.volume_setting>.fa-dash{
+    border: 2px solid var(--icons);
+    margin-bottom: 5px;
+    border-radius: 2px;
+}
+
