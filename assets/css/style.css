@@ -198,6 +198,7 @@ li .w_text {
     display: flex;
     justify-content: end;
     background-color: var(--bg-darker);
+    height: 80px;
 }
 
 .upgrade a{
@@ -213,7 +214,17 @@ li .w_text {
     margin-right:10px;
     line-height: 0px;
     padding: 17px 36px;
+
     
+    
+}
+
+.upgrade a:hover{
+    cursor: pointer;
+    font-size: 13px;
+    padding:18px 37px;
+    margin-top: 21px;
+    margin-right: 8px;
 }
 
 
@@ -270,14 +281,37 @@ li .w_text {
     text-align: center;
     width: calc((100% / 6) - 20px);
     margin-right: 20px;
+    position: relative;
     
+
+}
+
+.album i{
+    position: absolute;
+    color: var(--white);
+    opacity: 0;
+    top: 22%;
+    left: 37%;
+    font-size: 50px;
     
+
+}
+
+.album:hover i{
+    opacity: 1;
+    cursor: pointer;
 
 }
 
 .recent_music img{
     width: 100%;
 }
+
+.album img:hover{
+    filter:brightness(0.5)
+}
+
+
 
 .album h3{
     color: var(--white);
