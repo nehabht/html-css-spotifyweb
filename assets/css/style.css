@@ -314,10 +314,16 @@ li .w_text {
 
 .round_container{
     height: 180px;
-    width: 180px;
+    /* width: 180px; */
     border-radius: 50%;
-    background-size: contain;
+    /* background-size: contain; */
+
+    width: calc((100% / 6) - 20px);
+    
+    background-repeat: no-repeat;
+    background: round;
 }
+
 
 .round_container h3{
     margin-top: 200px;
@@ -391,10 +397,8 @@ li .w_text {
     align-self: center;
     color: var(--icons2);
     margin-left:30px;
-    font-size: 12px;
-
-
     
+
 }
 
 .fa-heart{
@@ -402,6 +406,71 @@ li .w_text {
 }
 
 /* center */
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 35%;
+    text-align: center;
+}
+
+.top_player{
+    color: var(--white);
+    font-size: 20px;
+    display: inline;
+    padding-bottom: 10px;
+
+}
+
+.fa-circle-play{
+    font-size: 25px;
+}
+
+.top_player .fa-solid{
+    margin: 10px 1.5%;
+}
+
+.player{
+    font-size: 12px;
+    justify-content: space-between;
+    font-weight: 600;
+    display: flex;
+    align-self: center;
+    column-gap: 3%;
+    color: white;
+    width: 100%;
+}
+
+
+.song_bar{
+    width: 80%;
+    position: relative;
+    margin: 2px 2%;
+
+}
+
+
+
+.song_bar_setting{
+    position: absolute;
+    left: -1px;
+    top: 0;
+    width: 20%;
+    
+}
+
+.song_bar .fa-dash{
+    border: 2px solid #a3a3a385;
+    margin-bottom: 5px;
+    border-radius: 2px;
+
+}
+
+.song_bar_setting > .fa-dash{
+    border: 2px solid var(--icons);
+
+}
 
 
 
