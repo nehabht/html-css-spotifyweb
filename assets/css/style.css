@@ -93,9 +93,14 @@ aside a{
     column-gap: 10px;
 
     
-    
-    
 }
+
+.navigation span:hover{
+    cursor: pointer;
+    color: var(--white);
+
+}
+
 
 nav img {
     width: 25px;
@@ -246,6 +251,13 @@ li .w_text {
     
 
 }
+
+.menu a:hover{
+    color:var(--white);
+    cursor:pointer
+}
+
+
 .h_active{
     display: flex;
     flex-direction: column;
