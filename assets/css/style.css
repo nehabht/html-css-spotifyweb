@@ -428,11 +428,11 @@ li .w_text {
 }
 
 .top_player .fa-solid{
-    margin: 10px 1.5%;
+    margin: 10px 1.5%; 
 }
 
 .player{
-    font-size: 12px;
+    font-size: 10px;
     justify-content: space-between;
     font-weight: 600;
     display: flex;
@@ -444,9 +444,11 @@ li .w_text {
 
 
 .song_bar{
-    width: 80%;
+    width: 100%;
     position: relative;
-    margin: 2px 2%;
+    /* margin: 2px 2%; */
+    margin-left: 4%;
+    margin-top: 3px;
 
 }
 
