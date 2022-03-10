@@ -249,6 +249,7 @@ li .w_text {
     column-gap:10px;
     margin-top: 15px;
     flex-wrap: wrap;
+    row-gap: 25px;
 }
 
 .menu>a{
@@ -601,6 +602,8 @@ li .w_text {
     column-gap: 15px;
     color: var(--white);
     font-size: 13px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .volume{
@@ -658,11 +661,12 @@ li .w_text {
 
 
 @media screen and (max-width: 1200px){
-    .hero{
+    /* .hero{
         background-color: tan;
-    }
+    } */
     .album{
         width: calc((100% / 5) - 20px);
+        padding-bottom: 10px;
     }
    
 }
@@ -671,42 +675,65 @@ li .w_text {
 
 
 
-/* tablet - 768px - md  */
 
-@media screen and (max-width: 768px){
+
+/* @media screen and (max-width: 768px){
     .hero{
         background-color: violet;
     }
     .album{
         width: calc((100% / 4) - 20px);
     }
+    
+} */
+
+
+
+/* s - 767px */
+
+@media screen and (max-width:767px) {
+
+    .album{
+        width: calc((100% / 2) - 20px);
+    }
+
     .options{
         flex-direction: column;
         row-gap: 6px;
     }
+
+    .menu{
+        column-gap: 10px;
+    }
+
+    .right{
+        row-gap: 10px;
+        align-self: center;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+
+
+
+    
 }
 
-
-/* tablet - 568px - sm  */
-/* cambiare in 320px dopo aver sistemato la barra del volume */
+/* xs - 568px */
 
 @media screen and (max-width:568px) {
-    .hero{
-        background-color: goldenrod;
-    }
+
     .album{
-        width: calc((100% / 3) - 20px);
+        width: calc((100% / 2) - 20px);
     }
-    /* .container.row{
-        min-width: 540px;
-    } */
+
+    .container.row{
+        min-width: 428px;
+    }
 
     aside{
         width: 50px;
         padding-left: 15px;
     }
-
-
 
     .logo_img{
         display: none;
@@ -716,8 +743,7 @@ li .w_text {
     .logo_small{
         display: block;
         width: 25px;
-        padding-bottom: 10px;
-        
+        padding-bottom: 10px;       
     }
 
     .hide_nav{
@@ -730,6 +756,7 @@ li .w_text {
 
     .hero_show img {
         margin-left: 20px;
+        padding-bottom: 10px;
     }
 
     main{
@@ -740,9 +767,22 @@ li .w_text {
         padding-top:10px;
     }
 
+    .menu{
+        column-gap: 30px;
+    }
+
+    /* .menu>a{
+        font-size: 16px;
+    } */
+
+    .options{
+        margin-left:15px;
+    }
+
+    footer{
+        min-width: 428px;
+    }
+
+
     
 }
-
-
-
-/* tablet - px - xs  */
