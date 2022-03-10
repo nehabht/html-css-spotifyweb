@@ -132,12 +132,20 @@ nav img{
     /* margin-bottom: -5px; */
 }
 
-.logo img{
+.logo_img{
     width: 120px;
+    
+}
+
+.logo_small{
+    width: 120px;
+    display: none;
+    
 }
 
 .logo{
     line-height: 65px;
+    
 }
 
 aside span{
@@ -610,6 +618,8 @@ li .w_text {
 
 .volume_setting{
     position: absolute;
+    /* position: absolute; */
+    top:0;
     left: 0px;
     width: 23px;
     color: var(--icons);
@@ -642,3 +652,79 @@ li .w_text {
     opacity: 1;
 }
 
+/* media queries */
+
+/* 1200px */
+
+
+@media screen and (max-width: 1200px){
+    .hero{
+        background-color: tan;
+    }
+    .album{
+        width: calc((100% / 5) - 20px);
+    }
+   
+}
+
+
+
+
+
+/* tablet - 768px - md  */
+
+@media screen and (max-width: 768px){
+    .hero{
+        background-color: violet;
+    }
+    .album{
+        width: calc((100% / 4) - 20px);
+    }
+    .options{
+        flex-direction: column;
+        row-gap: 6px;
+    }
+}
+
+
+/* tablet - 568px - sm  */
+/* sotto i 540 mi sballa la barra del volume */
+
+@media screen and (max-width:568px) {
+    .hero{
+        background-color: goldenrod;
+    }
+    .album{
+        width: calc((100% / 3) - 20px);
+    }
+    .container.row{
+        min-width: 540px;
+    }
+
+    .aside{
+        width: 100px;
+    }
+
+    .logo_img{
+        display: none;
+
+    }
+
+    .logo_small{
+        display: block;
+        width: 25px;
+        
+    }
+
+    .hide_nav{
+        display: none;
+    }
+
+    .download>img {
+        margin-left: -2px;
+    
+}
+
+
+
+/* tablet - px - xs  */
