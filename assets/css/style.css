@@ -657,8 +657,7 @@ li .w_text {
 
 /* media queries */
 
-/* 1200px */
-
+/* lg - 1200px */
 
 @media screen and (max-width: 1200px){
     /* .hero{
@@ -668,24 +667,19 @@ li .w_text {
         width: calc((100% / 5) - 20px);
         padding-bottom: 10px;
     }
-   
+
 }
 
 
+/* m - 991px */
 
+@media screen and (max-width: 991px){
 
-
-
-
-/* @media screen and (max-width: 768px){
-    .hero{
-        background-color: violet;
-    }
     .album{
-        width: calc((100% / 4) - 20px);
+        width: calc((100% / 3) - 20px);
     }
     
-} */
+}
 
 
 
