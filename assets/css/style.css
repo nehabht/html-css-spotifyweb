@@ -688,7 +688,7 @@ li .w_text {
 
 
 /* tablet - 568px - sm  */
-/* sotto i 540 mi sballa la barra del volume */
+/* cambiare in 320px dopo aver sistemato la barra del volume */
 
 @media screen and (max-width:568px) {
     .hero{
@@ -697,13 +697,16 @@ li .w_text {
     .album{
         width: calc((100% / 3) - 20px);
     }
-    .container.row{
+    /* .container.row{
         min-width: 540px;
+    } */
+
+    aside{
+        width: 50px;
+        padding-left: 15px;
     }
 
-    .aside{
-        width: 100px;
-    }
+
 
     .logo_img{
         display: none;
@@ -713,6 +716,7 @@ li .w_text {
     .logo_small{
         display: block;
         width: 25px;
+        padding-bottom: 10px;
         
     }
 
@@ -722,6 +726,20 @@ li .w_text {
 
     .download>img {
         margin-left: -2px;
+    }
+
+    .hero_show img {
+        margin-left: 20px;
+    }
+
+    main{
+        width: calc(100% - 50px);
+    }
+
+    .nav img{
+        padding-top:10px;
+    }
+
     
 }
 
